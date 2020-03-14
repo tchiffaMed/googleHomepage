@@ -1,0 +1,191 @@
+html, body{
+
+    height: 100%;
+}
+
+body{
+
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    text-align: center;
+
+}
+.pan {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    list-style: none;
+    align-items: center;
+    text-align: center;
+    font-family: 'kobani';
+
+}
+
+
+.pan li {
+   
+   margin:  auto 10px;
+   
+}
+
+.pan li  a {
+    text-decoration: none;
+    color: black;
+ }
+
+ .pan li:nth-child(3) img {
+    
+    width: 168x;
+   
+    margin-top: 8px;
+    
+ }
+
+.pan li:nth-child(4) a {
+    background-color: #4386F9 ;
+    border-radius: 3px;
+    color: white;
+    width: 20px;
+    padding-right: 8px;
+    padding-left: 8px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+ }
+
+
+ .kayaa {
+     display: flex;
+     flex-flow: column nowrap;
+     justify-content: center;
+     align-items: center;
+     margin: auto;
+     
+ }
+
+ .kayaa .google a img {
+   width: 400px;
+   margin-bottom: 20px;
+}
+
+
+.search {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: left;
+    align-items: center;
+    text-align:left;
+    border: 1px solid rgb(223, 223, 223);
+    background-color: white;
+    box-shadow: 0.5px 0.5px 3px 3px rgb(240, 240, 240);
+    width: 600px;
+    height: 50px;
+    border-radius: 45px;
+    padding-left: 50px;
+    
+}
+
+.search input {
+   width: 535px ;
+   height: 30px;
+  
+
+}
+
+input {
+    border: none;
+    outline: 0px solid transparent;
+    font-size: 1em;
+ }
+ 
+.search .mic {
+    align-self: flex-end;
+    width: 14px;
+    margin-left: 25px;
+    margin-top: 7px;
+   
+}
+
+ .kayann {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content:space-between;
+    margin-top: 20px;
+    font-family: 'kobani'
+}
+
+.kayann a {
+    text-decoration: none;
+    color: black;
+}
+
+.kayann p {
+    background-color: #F4F4F4;
+    margin: 10px;
+    padding: 5px;
+    border-radius: 3px;
+
+}
+.kayannx {
+    font-family: 'kobani'
+}
+
+.kayannx a {
+    text-decoration: none;
+    color: blue;
+}
+
+
+footer {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    padding: 10px;
+    background-color: #f5f5f5;
+    font-family: 'kobani';
+    flex-shrink: 0;
+}
+
+footer .sol {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    border-top: 1px solid rgb(206, 206, 206);
+}
+
+footer .sol .sold {
+    display: flex;
+    flex-flow: row nowrap;
+}
+footer .sol .solg {
+    display: flex;
+    flex-flow: row nowrap;
+    
+}
+.sol .sold p {
+    margin-right: 25px;
+    margin-bottom: 10px;
+}
+
+.sol .solg p {
+    margin-right: 25px;
+    margin-bottom: 10px;
+    
+}
+
+footer .sol a {
+    text-decoration: none;
+    color: black;
+    
+}
+
+
+@font-face {
+    font-family: 'kobani';
+    src: url(i/kobani.ttf);
+}
